@@ -59,6 +59,7 @@
         <item>restart_recovery</item>
         <item>restart_bootloader</item>
         <item>restart_fastboot</item>
+        <item>restart_systemui</item>
     </string-array>
 
     <!-- The list of package IDs that are not allowed to use aux cameras. -->
@@ -73,4 +74,11 @@
         <item>com.oplus.camera</item>
         <item>org.lineageos.aperture</item>
     </string-array>
+
+<!-- Whether to show min/max refresh rate in display settings -->
+    <bool name="config_show_refresh_rate_controls">true</bool>
+    <bool name="config_supports_dynamic_refresh_rate_controls">true</bool>
+
+  <!-- Whether devices suports in-display fingerprint when screen is off -->
+    <bool name="config_supportsScreenOffUdfps">true</bool>  
 </resources>

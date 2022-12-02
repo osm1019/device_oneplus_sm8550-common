@@ -211,14 +211,10 @@
     <string name="config_defaultSms" translatable="false">com.google.android.apps.messaging</string>
     <string name="config_systemSpeechRecognizer" translatable="false">com.google.android.tts</string>
     
-<!-- Whether to show min/max refresh rate in display settings -->
-    <bool name="config_show_refresh_rate_controls">true</bool>
-    <bool name="config_supports_dynamic_refresh_rate_controls">true</bool>
+   <!-- Flag to enable framework dimming for udfps -->
+    <bool name="config_udfpsFrameworkDimming">true</bool>
 
   <!-- Whether devices suports in-display fingerprint when screen is off -->
     <bool name="config_supportsScreenOffUdfps">true</bool>   
-
-
-
 
 </resources>
