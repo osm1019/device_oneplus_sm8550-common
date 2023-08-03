@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 11 (CPH2449_11.A.23).
+## are from OnePlus 11 (CPH2449_13.1.0.590(EX01)).
 
 # ACDBs
 vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd
@@ -952,6 +952,7 @@ odm/etc/init/occe_create.rc
 odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc
 odm/etc/vintf/manifest/manifest_oplus_cameraextension.xml
 odm/etc/vintf/manifest/manifest_oplus_cammidasservice_aidl.xml
+odm/etc/vintf/manifest/manifest_oplus_sendextcamcmd.xml
 odm/lib/vendor.oplus.hardware.extcamera@1.0.so
 odm/lib64/android.hardware.graphics.allocator@2.0.so
 odm/lib64/android.hardware.graphics.allocator@3.0.so
@@ -2272,7 +2273,7 @@ odm/bin/hw/vendor.oplus.hardware.stability.oplus_project-V1-service
 odm/etc/init/vendor.oplus.hardware.stability.oplus_project-V1-service.rc
 odm/etc/vintf/manifest/manifest_oplus_stability_project_aidl.xml
 odm/lib64/vendor.oplus.hardware.stability.oplus_project-V1-ndk.so
-vendor/lib64/vendor.oplus.hardware.stability.oplus_project@1.0.so
+vendor/lib64/vendor.oplus.hardware.stability.oplus_project-V1-ndk.so
 
 # PD
 vendor/bin/pd-mapper
