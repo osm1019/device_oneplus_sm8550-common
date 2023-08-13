@@ -109,4 +109,7 @@ void vendor_load_properties() {
     set_ro_build_prop("model", model);
     set_ro_build_prop("name", name);
     set_ro_build_prop("product", model, false);
+    OverrideProperty("ro.rising.chipset", "Snapdragon 8 Gen 2");
+    OverrideProperty("ro.rising.device", "OnePlus 11 5G");
+    OverrideProperty("ro.rising.maintainer", "Omariscal1019");
 }
