@@ -326,7 +326,7 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # OPLUS camera
-$(call inherit-product, vendor/oplus/camera/camera-vendor.mk)
+#$(call inherit-product, vendor/oplus/camera/camera-vendor.mk)
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/oplus_camera_default_grant_permissions_list.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default-permissions/oplus_camera_default_grant_permissions_list.xml \

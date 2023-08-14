@@ -64,7 +64,7 @@ ro.bluetooth.a2dp_offload.supported=true
 
 # Camera
 vendor.camera.algo.jpeghwencode=0
-vendor.camera.aux.packagelist=com.oplus.camera
+vendor.camera.aux.packagelist=com.oplus.camera,com.android.camera,org.lineageos.aperture,org.lineageos.aperture.dev
 vendor.camera.aux.packageexcludelist=org.telegram.messenger,org.thunderdog.challegram
 ro.vendor.oplus.camera.isSupportExplorer=0
 ro.camera.enableCamera1MaxZsl=1
