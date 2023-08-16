@@ -39,6 +39,7 @@ qsee_ipc_irq_bridge.ko
 glink_probe.ko
 glink_pkt.ko
 pmic_glink.ko
+qti_battery_debug.ko
 charger-ulog-glink.ko
 altmode-glink.ko
 soc_sleep_stats.ko
@@ -100,6 +101,7 @@ hvc_gunyah.ko
 msm_geni_serial.ko
 frpc-adsprpc.ko
 rdbg.ko
+qcom_iommu_debug.ko
 lt9611uxc.ko
 oplus_bsp_fw_update.ko
 oplus_bsp_ist_up.ko
@@ -171,6 +173,7 @@ sdpm_clk.ko
 thermal_minidump.ko
 oplus_bt_bsa.ko
 qcom_edac.ko
+qcom-cpufreq-hw-debug.ko
 qcom_lpm.ko
 leds-qti-flash.ko
 leds-qti-tri-led.ko
