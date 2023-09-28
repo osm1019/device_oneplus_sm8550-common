@@ -23,6 +23,10 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+# Alert slider
+PRODUCT_PACKAGES += \
+    tri-state-key-calibrate
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
@@ -251,6 +255,7 @@ PRODUCT_PACKAGES += \
     init.oplus.hw.rc \
     init.oplus.hw.rc.recovery \
     init.oplus.rc \
+    init.oplus_extras.rc \
     init.qcom.early_boot.sh \
     init.qcom.rc \
     init.qcom.recovery.rc \
@@ -339,11 +344,15 @@ PRODUCT_PACKAGES += \
     libOmxCore \
     libstagefrighthw
 
+# OnePlus Extras
+PRODUCT_PACKAGES += \
+    OPlusExtras
+
 # Overlays
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-derp
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
@@ -352,6 +361,7 @@ PRODUCT_PACKAGES += \
     OPlusFrameworksResCommon \
     OPlusSettingsResCommon \
     OPlusSystemUIResCommon \
+    OPlusExtrasResCommon \
     WifiResTarget
 
 # Partitions
