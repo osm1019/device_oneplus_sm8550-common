@@ -2,6 +2,9 @@
 persist.bluetooth.bqr.event_mask=0x8000000E
 persist.bluetooth.bqr.min_interval_ms=60000
 
+#Camera
+vendor.camera.aux.packagelist=com.android.camera, org.codeaurora.snapcam, org.derpfest.flash
+
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
