@@ -162,6 +162,9 @@
         <item>ehrpd,12</item>
         <item>eutran,11</item>
         <item>nfc,1</item>
+        <item>"nrepc,15"</item>
+        <item>"nr5gc,15"</item>
+        <item>"eutran5gc,15"</item>
     </string-array>
 
     <!-- Safe headphone volume index. When music stream volume is below this index
@@ -203,5 +206,8 @@
 
     <!-- Mock Oplus LinearmotorVibratorService -->
     <bool name="config_mockOplusLinearmotorVibratorService">true</bool>
+    
+        <!-- Enforce DisplayModeDirector to select user preferred resolution -->
+    <bool name="config_forceToUseSelectedResolution">true</bool>
 
 </resources>
