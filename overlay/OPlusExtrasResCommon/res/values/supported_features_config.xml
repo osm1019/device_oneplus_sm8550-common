@@ -9,7 +9,7 @@
     <bool name="config_deviceSupportsAlertSlider">true</bool>
 
     <!-- Whether device supports Anti-Flicker -->
-    <bool name="config_deviceSupportsAntiFlicker">true</bool>
+    <bool name="config_deviceSupportsAntiFlicker">false</bool>
 
     <!-- Whether device supports Kcal -->
     <bool name="config_deviceSupportsKcal">false</bool>
