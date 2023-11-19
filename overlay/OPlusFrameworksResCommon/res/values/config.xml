@@ -209,5 +209,8 @@
     
         <!-- Enforce DisplayModeDirector to select user preferred resolution -->
     <bool name="config_forceToUseSelectedResolution">true</bool>
+    
+    <!-- Shows the required view for Screen OFF FOD -->
+    <bool name="config_supportsScreenOffUdfps">true</bool>
 
 </resources>
